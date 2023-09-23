@@ -1,8 +1,30 @@
 {
-    "users": [
-        {"id": 1, "name": "Myra"}
-    ],
-    "albums": [],
-    "photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Dominic Keebler",
+      "id": 2
+    },
+    {
+      "name": "Marjorie Muller",
+      "id": 3
+    },
+    {
+      "name": "Dr. Ray Kunde",
+      "id": 4
+    },
+    {
+      "name": "Verna Klein",
+      "id": 5
+    },
+    {
+      "name": "Connie Pagac",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
-
