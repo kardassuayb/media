@@ -1,16 +1,15 @@
 import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { fetchUsers, addUser } from "../store";
-import Skeleton from "./Skeleton";
 import Button from "./Button";
+import Skeleton from "./Skeleton";
 import { useThunk } from "../hooks/useThunk";
+import UsersListItem from "./UsersListItem";
 
-const UsersList = () => {
+function UsersList() {
   const [doFetchUsers, isLoadingUsers, loadingUsersError] =
     useThunk(fetchUsers);
-
   const [doCreateUser, isCreatingUser, creatingUserError] = useThunk(addUser);
-
   const { data } = useSelector((state) => {
     return state.users;
   });
@@ -30,15 +29,10 @@ const UsersList = () => {
     content = <div>Error fetching data...</div>;
   } else {
     content = data.map((user) => {
-      return (
-        <div key={user.id} className="mb-2 border rounded">
-          <div className="flex p-2 justify-between items-center cursor-pointer">
-            {user.name}
-          </div>
-        </div>
-      );
+      return <UsersListItem key={user.id} user={user} />;
     });
   }
+
   return (
     <div>
       <div className="flex flex-row justify-between items-center m-3">
@@ -51,6 +45,6 @@ const UsersList = () => {
       {content}
     </div>
   );
-};
+}
 
 export default UsersList;

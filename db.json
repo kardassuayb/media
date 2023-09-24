@@ -2,19 +2,7 @@
   "users": [
     {
       "id": 1,
-      "name": "Myra"
-    },
-    {
-      "name": "Miss Sabrina Homenick-Bergstrom",
-      "id": 2
-    },
-    {
-      "name": "Michael Schoen",
-      "id": 3
-    },
-    {
-      "name": "Dr. Mitchell Bartoletti-Rau",
-      "id": 4
+      "name": "Myra Thiel"
     },
     {
       "name": "Cesar Schinner-Ebert",
@@ -27,6 +15,10 @@
     {
       "name": "Javier Roberts-Turcotte",
       "id": 7
+    },
+    {
+      "name": "Cesar Effertz III",
+      "id": 8
     }
   ],
   "albums": [],
