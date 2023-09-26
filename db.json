@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "name": "Myre Thiel",                
+      "name": "Myre Thiel",
       "id": 1
     },
     {
@@ -22,6 +22,21 @@
       "id": 1,
       "title": "Hiking Trip",
       "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Ergonomic Fresh Chicken",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Modern Cotton Hat",
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "title": "Licensed Steel Keyboard",
+      "id": 4
     }
   ],
   "photos": []
