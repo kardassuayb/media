@@ -15,7 +15,7 @@ const pause = (duration) => {
   return new Promise((resolve) => {
     setTimeout(resolve, duration);
   });
-};
+}; // Kullanıcı oluşturma esnasında buton üzerine eklediğimiz "yükleniyor" simgesi görünebilsin diye network'ü Slow3G yapmak yerine bu duraklatma fonksiyonunu oluşturduk.
 
 //! createAsyncThunk fonksiyonu oluşturulduğunda pending, fulfilled, ve rejected özellikleri redux toolkit tarafından otomatik olarak sağlanır. Bu özellikleri slice içerisinde yazarken manuel olarak kullanmak yerine aşağıdaki gibi fonksiyon adına özellik ekleyerek kullanabiliriz:
 
