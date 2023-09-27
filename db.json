@@ -29,5 +29,30 @@
       "id": 3
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=4167978713088000",
+      "id": 1
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=5770323590905856",
+      "id": 2
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=5995342646476800",
+      "id": 5
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=4893738616750080",
+      "id": 6
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=1384614448857088",
+      "id": 7
+    },
+    {
+      "url": "https://loremflickr.com/150/150/abstract?lock=6564868968677376",
+      "id": 9
+    }
+  ]
 }

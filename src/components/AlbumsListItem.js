@@ -17,9 +17,10 @@ const AlbumsListItem = ({ album }) => {
         onClick={handleRemoveAlbum}
         rounded
         warning
+        className="mr-3"
         loading={results.isLoading}
       >
-        <GoTrash />
+        <GoTrash className="text-black" />
       </Button>
       {album.title}
     </>
